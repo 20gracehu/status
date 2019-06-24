@@ -1,0 +1,88 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Page Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="/css/index.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Athiti&display=swap" rel="stylesheet">
+        <script src="/js/index.js"></script>
+    </head>
+    <style>
+
+    </style>
+
+    <body>
+        <div id="header">
+            <p id="header-title">HarkerDev</p>
+            <p id="header-right">System Status</p>
+        </div>
+
+        <div id="rectangle">
+            <p id="summary">All Systems Operational</p>
+            <!--will code it later; just doing front end rn-->
+        </div>
+
+        <div id="dev">
+            <p id="title">HarkerDev</p>
+            <p id="dev-status"></p>
+        </div>
+
+        <div id="gitlab">
+            <p id="title">Gitlab</p>
+            <p id="gitlab-status"></p>
+        </div>
+
+        <div id="pay">
+            <p id="title">HarkerPay</p>
+            <p id="pay-status"></p>
+        </div>
+
+        <div id="bell">
+            <p id="title">BellSchedule</p>
+            <p id="bell-status"></p>
+        </div>
+
+        <div id="planner">
+            <p id="title">Planner</p>
+            <p id="planner-status"></p>
+        </div>
+
+        <div id="food">
+            <p id="title">FoodCourt</p>
+            <p id="food-status"></p>
+        </div>
+
+        <div id="vol">
+            <p id="title">Volunteering</p>
+            <p id="vol-status"></p>
+        </div>
+
+        <div id="short">
+            <p id="title">URL Shortener</p>
+            <p id="short-status"></p>
+        </div>
+
+        <div id="ann">
+            <p id="title">Announcements</p>
+            <p id="ann-status"></p>
+        </div>
+
+        <div id="reading">
+            <p id="title">Summer Reading</p>
+            <p id="reading-status"></p>
+        </div>
+
+        <p id="time"></p>
+    </body>
+    <script>
+        var now = new Date();
+        var time = (now.getMonth() + 1) + '/' + now.getDate() + "/" + now.getFullYear() + " " + (now.getHours() % 12) + ":" + now.getMinutes();
+        var element = document.getElementById("time");
+        element.innerHTML = "Last Updated: " + time;
+    </script>
+
+    </html>

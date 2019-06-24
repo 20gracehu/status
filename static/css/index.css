@@ -1,0 +1,551 @@
+/*CSS*/
+
+body {
+    margin-top: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#header {
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    background: #005E45;
+}
+
+#header-title {
+    margin: 0;
+    position: absolute;
+    width: 350px;
+    height: 120px;
+    left: 30px;
+    top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#header-right {
+    margin: 0;
+    position: absolute;
+    width: 450px;
+    height: 120px;
+    left: 800px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 96px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#rectangle {
+    position: absolute;
+    width: 1000px;
+    height: 60px;
+    left: 140px;
+    top: 180px;
+    background: #25B790;
+    border-radius: 20px;
+}
+
+#summary {
+    margin: 0;
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 30px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#dev {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 140px;
+    top: 270px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+#dev>#title {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
+
+#dev>#dev-status {
+    margin: 0;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 310px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #25B790;
+}
+
+#gitlab {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 140px;
+    top: 330px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+#gitlab>#title {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
+
+#gitlab>#gitlab-status {
+    margin: 0;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 310px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #25B790;
+}
+
+
+/*Pay Section CSS*/
+
+#pay {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 140px;
+    top: 390px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+#pay>#title {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
+
+#pay>#pay-status {
+    margin: 0;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 310px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #25B790;
+}
+
+
+/*Bell CSS*/
+
+#bell {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 140px;
+    top: 450px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+#bell>#title {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
+
+#bell>#bell-status {
+    margin: 0;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 310px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #25B790;
+}
+
+#planner {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 140px;
+    top: 510px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+#planner>#title {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
+
+#planner>#planner-status {
+    margin: 0;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 310px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #25B790;
+}
+
+
+/*Food CSS*/
+
+#food {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 690px;
+    top: 270px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+#food>#title {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
+
+#food>#food-status {
+    margin: 0;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 310px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #25B790;
+}
+
+
+/*Volunteering section css*/
+
+#vol {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 690px;
+    top: 330px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+#vol>#title {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
+
+#vol>#vol-status {
+    margin: 0;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 310px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #25B790;
+}
+
+#short {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 690px;
+    top: 390px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+#short>#title {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
+
+#short>#short-status {
+    margin: 0;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 310px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #25B790;
+}
+
+
+/*announcements section css*/
+
+#ann {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 690px;
+    top: 450px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+#ann>#title {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
+
+#ann>#ann-status {
+    margin: 0;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 310px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #25B790;
+}
+
+#reading {
+    position: absolute;
+    width: 450px;
+    height: 60px;
+    left: 690px;
+    top: 510px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+#reading>#title {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 30px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
+
+#reading>#reading-status {
+    margin: 0;
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 310px;
+    top: 15px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #25B790;
+}
+
+#time {
+    margin: 0;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 870px;
+    top: 600px;
+    font-family: Athiti;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #515151;
+}
